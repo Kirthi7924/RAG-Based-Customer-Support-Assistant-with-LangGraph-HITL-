@@ -51,8 +51,9 @@ The system follows a modular architecture divided into four main phases:
 ├── chroma_db/            # Persistent vector database storage
 ├── data/                 # Input PDFs (knowledge_base.pdf)
 ├── docs/                 # Detailed Engineering Documentation
-│   ├── latex/            # HLD, LLD, and Technical Doc source files
-│   └── architecture_diagram.png
+│   ├── HLD           
+│   ├── LLD
+│   └── Technical Doc
 ├── src/                  # Core Source Code
 │   ├── chunker.py        # Text splitting logic
 │   ├── embeddings.py     # Local embedding model initialization
@@ -118,7 +119,7 @@ This project includes extensive engineering documentation:
 - **Low-Level Design (LLD)**: Module specifications and state transition logic.
 - **Technical Documentation**: Setup guide, prompt engineering, and future roadmap.
 
-All documents are located in `docs/latex/`.
+All documents are located in `docs/`.
 
 ---
 
